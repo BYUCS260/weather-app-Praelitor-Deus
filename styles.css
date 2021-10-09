@@ -1,0 +1,25 @@
+body {
+    background-color: #b3d1ff;
+    font-family: Garamond, serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#forecastResults {
+    background-color: white;
+    font-size: 20px;
+}
+
+.temp {
+    padding: 0 15px;
+}
+.time {
+    padding: 0 15px;
+}
+.feels-like {
+    padding: 0 15px;
+}
+.humidity {
+    padding: 0 15px;
+    height: 100px;
+}

@@ -4,17 +4,46 @@
 <head>
   <meta charset="utf-8" />
   <title>Lab 2</title>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <h1>Lab 2</h1>
+<h1>Weather Forecast App</h1>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
-  <script text="type/javascript" src="/script.js">
-  </script>
+<form>
+  <label>Enter a U.S. city</label>
+  <input id="weatherInput" type="text"></input><br/>
+  <input id="weatherSubmit" type="submit" value="Submit"></input>
+</form>
 
+<div id="weatherResults">
+</div>
+
+<div id="forecastResults">
+</div>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+<script text="type/javascript" src="script.js">
+</script>
+
+
+<div class='footer'>
+  <a href="https://github.com/BYUCS260/weather-app-Praelitor-Deus">Github</a>
+</div>
+<style>
+  .footer {
+    width: 100%;
+    background-color: #b3d1ff;
+    text-align: center;
+  }
+  .footer a {
+    font-size: 30px;
+  }
 </body>
 
 </html>
